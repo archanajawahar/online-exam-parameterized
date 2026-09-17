@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/online-exam-parameterized.git'
+                    url: 'https://github.com/archanajawahar/online-exam-parameterized.git'
             }
         }
 
